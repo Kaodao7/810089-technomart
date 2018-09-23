@@ -22,9 +22,10 @@
           <a class="checkout checkout-open" href="#checkout">Оформить заказ</a>
         </div>
         <section class="user-navigation">
+          <h2 class="visually-hidden">Пользовательская навигация</h2>
           <p><em>Интернет-магазин строительных материалов и инструментов для ремонта</em></p>
           <div class="phone-number">
-            <img src="img/icon-phone.svg">
+            <img src="img/icon-phone.svg" alt="Картинка телефона">
             <span class="tel">+7 (812) 555-05-55</span>
           </div>
           г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
@@ -61,7 +62,7 @@
         <form action="https://echo.htmlacademy.ru" method="post" oninput="sum.value=price_range.value">
           <h2>Фильтр:</h2>
           <div class="price-filter">
-            <label for="price-range">Цена:</label>
+            <label for="price_range">Цена:</label>
             <input type="range" name="price" id="price_range" min="0" max="35000" step="1000">
             <output name="sum"></output>
           </div>
@@ -214,6 +215,7 @@
         </ul>
       </section>
       <article class="about-punchers">
+        <h4 class="visually-hidden">О перфораторах</h4>
         <b>Пара слов о перфораторах</b>
         <p>Перфоратор — универсальный строительный инструмент.
            Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
@@ -250,11 +252,12 @@
         </section>
       </div>
       <div class="footer-bottom">
-        <section class="copyright">
-          <h2 class="visually-hidden">Авторские права</h2>
-          © 2010-2016 Компания «Техномарт»<br>
-          Все права защищены
-        </section>
+        <div class="copyright">
+          <p>
+            © 2010-2016 Компания «Техномарт»<br>
+            Все права защищены
+          </p>
+        </div>
         <section class="social-networks">
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="social-networks-list">
@@ -263,18 +266,18 @@
             <li><a class="instagram" href="https://www.instagram.com/">instagram</a></li>
           </ul>
         </section>
-        <section class="feedback">
+        <div class="feedback">
           Обратная связь:<br>
           <a class="feedback-link" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-        </section>
-        <section class="developer">
+        </div>
+        <div class="developer">
           Разработано -<br>
           <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-        </section>
+        </div>
       </div>
     </footer>
     <div class="product-added">
-      <img src="img/icon-mark.svg">
+      <img src="img/icon-mark.svg" alt="Изображение в виде галочки">
       <p>Товар добавлен в корзину!</p>
       <a class="checkout checkout-inside" href="#checkout">Оформить заказ</a>
       <a class="continue-shopping" href="catalog.html">Продолжить покупки</a>

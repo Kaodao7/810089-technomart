@@ -22,9 +22,9 @@
           <a class="checkout checkout-open" href="#checkout">Оформить заказ</a>
         </div>
         <section class="user-navigation">
-          <h1><em>Интернет-магазин строительных материалов и инструментов для ремонта</em></h1>
+          <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
           <div class="phone-number">
-            <img src="img/icon-phone.svg">
+            <img src="img/icon-phone.svg" alt="Картинка телефона">
             <span class="tel">+7 (812) 555-05-55</span>
           </div>
           г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
@@ -47,10 +47,12 @@
 
     <main class="container">
       <article class="drills-and-perforators">
-        <img src="img/slider1.jpg">
-        <img src="img/slider2.jpg">
+        <h2 class="visually-hidden">Дрели и перфораторы</h2>
+        <img src="img/slider1.jpg" alt="Фото с перфоратором">
+        <img src="img/slider2.jpg" alt="Фото с дрелью">
         <button type="button" class="article-button article-button-next visually-hidden" aria-label="Следующий слайд"></button>
         <button type="button" class="article-button article-button-back visually-hidden" aria-label="Предыдущий слайд"></button>
+        <a class="slider-to-catalog" href="catalog.html" aria-label="Ссылка для перехода в каталог">Открыть каталог</a>
       </article>
       <section class="categories">
         <h1 class="visually-hidden">Категории товаров</h1>
@@ -210,7 +212,7 @@
             <p>Залезть в долговую яму стало проще!<br>
               Кредитные консультанты придут вам на помощь.
             </p>
-            <a class="credit-application" href="credit.html" aria-label="Заявка на кредит">Отправить заявку<a>
+            <a class="credit-application" href="credit.html" aria-label="Заявка на кредит">Отправить заявку</a>
           </li>
         </ul>
       </section>
@@ -219,7 +221,7 @@
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами,<br>
           заехав в наш офис.</p>
-        <img src="img/map.png">
+        <img src="img/map.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
       </section>
       <article class="about-us">
         <h2>Компания «Техномарт»</h2>
@@ -241,8 +243,10 @@
         <section class="info">
           <h2 class="visually-hidden">Основная информация о нас</h2>
           <img src="img/footer-logo.png" alt="Логотип строй магазина «Техномарт»">
-          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-          +7 (812) 555-05-55
+          <p class="footer-contacts">
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            +7 (812) 555-05-55
+          </p>
         </section>
         <section class="footer-navigation">
           <h2 class="visually-hidden">Навигация по сайту</h2>
@@ -262,11 +266,12 @@
         </section>
       </div>
       <div class="footer-bottom">
-        <section class="copyright">
-          <h2 class="visually-hidden">Авторские права</h2>
-          © 2010-2016 Компания «Техномарт»<br>
-          Все права защищены
-        </section>
+        <div class="copyright">
+          <p>
+            © 2010-2016 Компания «Техномарт»<br>
+            Все права защищены
+          </p>
+        </div>
         <section class="social-networks">
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="social-networks-list">
@@ -275,19 +280,19 @@
             <li><a class="instagram" href="https://www.instagram.com/">instagram</a></li>
           </ul>
         </section>
-        <section class="feedback">
+        <div class="feedback">
           Обратная связь:<br>
           <a class="feedback-link" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-        </section>
-        <section class="developer">
+        </div>
+        <div class="developer">
           Разработано -<br>
           <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-        </section>
+        </div>
       </div>
     </footer>
     <!--Первый popup-->
     <div class="product-added">
-      <img src="img/icon-mark.svg">
+      <img src="img/icon-mark.svg" alt="Изображение в виде галочки">
       <p>Товар добавлен в корзину!</p>
       <a class="checkout checkout-inside" href="#checkout">Оформить заказ</a>
       <a class="continue-shopping" href="index.html">Продолжить покупки</a>
