@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт-строй магазин</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -12,21 +15,23 @@
             <img src="img/header-logo.jpg" alt="Логотип строй магазина «Техномарт»">
           </a>
           <div class="search">
-            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-              <input type="search" name="search" placeholder="Поиск:" aria-label="Поиск по сайту">
+            <form action="https://echo.htmlacademy.ru" method="get">
+              <input class="entry-field" type="search" name="search" placeholder="Поиск:" aria-label="Поиск по сайту">
             </form>
           </div>
           <a class="bookmarks" href="#bookmarks">Закладки: 0</a>
-          <a class="basket" href="#basket">Корзина: 0</a>
-          <a class="checkout checkout-open" href="#checkout">Оформить заказ</a>
+          <a class="basket empty-basket" href="#basket">Корзина: 0</a>
+          <a class="checkout-open" href="#checkout">Оформить заказ</a>
         </div>
         <section class="user-navigation">
-          <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+          <h1 class="index-page-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
           <div class="phone-number">
             <img src="img/icon-phone.svg" alt="Картинка телефона">
             <span class="tel">+7 (812) 555-05-55</span>
           </div>
-          г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          <p class="header-contacts">
+            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          </p>
           <ul class="login-form" aria-label="Ссылки для входа и регистрации">
             <li><a class="login" href="#login">Войти</a></li>
             <li><a class="registration" href="#registration">Регистрация</a></li>
@@ -44,7 +49,7 @@
       </nav>
     </header>
 
-    <main class="container">
+    <main class="index-container">
       <article class="drills-and-perforators">
         <h2 class="visually-hidden">Дрели и перфораторы</h2>
         <img src="img/slider1.jpg" alt="Фото с перфоратором">
@@ -217,13 +222,14 @@
       </section>
 
       <section class="contacts">
-        <h2>Контакты</h2>
+        <h2 class="contacts-caption">Контакты</h2>
         <p>Вы можете забрать товар сами,<br>
           заехав в наш офис.</p>
         <img src="img/map.png" alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+        <button type="button" class="opening-window-button">Заблудились? Напишите нам!</button>
       </section>
       <article class="about-us">
-        <h2>Компания «Техномарт»</h2>
+        <h2 class="about-us-caption">Компания «Техномарт»</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
           строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
         <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
